@@ -1,0 +1,15 @@
+.video {
+  min-height: 967px;
+  padding: 20px 0 70px 0;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__phone {
+    margin-top: 34px;
+    flex-basis: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}

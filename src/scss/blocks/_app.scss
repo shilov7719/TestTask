@@ -1,0 +1,39 @@
+.app {
+  min-height: 783px;
+  padding-top: 20px;
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__card {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-top: 33px;
+    border-bottom: 1px solid #dddddd;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  &__img {
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    img {
+      width: 100%;
+    }
+    &--order {
+      order: 2;
+      margin-right: 0;
+      margin-left: 25px;
+    }
+  }
+  &__descr {
+    width: 205px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: $text-color;
+  }
+}

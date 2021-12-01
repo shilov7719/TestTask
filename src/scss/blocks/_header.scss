@@ -1,0 +1,28 @@
+//Header
+.header {
+  min-height: 51px;
+  padding: 12px 0;
+  border-bottom: 1px solid #dddddd;
+  &__inner {
+    display: flex;
+
+    position: relative;
+  }
+  &__logo {
+    display: flex;
+    &--main {
+      display: block;
+      width: 25px;
+      height: 25px;
+      margin-right: 17px;
+    }
+    &--partner {
+      display: block;
+      width: 25px;
+      height: 25px;
+    }
+  }
+  &__name {
+    display: none;
+  }
+}

@@ -1,0 +1,311 @@
+// Media
+@media (min-width: 576px) {
+  .desing {
+    min-height: 627px;
+  }
+  .card {
+    flex: 1 1 47%;
+    justify-content: flex-start;
+    &:nth-child(2) {
+      order: 0;
+    }
+    &:nth-child(2) {
+      margin-top: 0;
+    }
+    &:nth-child(2n + 1) {
+      margin-right: 20px;
+    }
+    &--min {
+      justify-content: flex-start;
+    }
+  }
+  .accessories {
+    min-height: 576px;
+
+    &__card {
+      flex-basis: 50%;
+      &--min {
+        min-width: 273px;
+      }
+      &:first-child {
+        margin-top: 40px;
+      }
+    }
+  }
+  .app {
+    &__descr {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .container {
+    padding: 0 25px;
+  }
+  .header {
+    min-height: 60px;
+    padding: 15px 0 9px 0;
+    &__logo {
+      &--main {
+        width: 35px;
+        height: 35px;
+
+        margin-right: 23px;
+      }
+      &--partner {
+        width: 35px;
+        height: 35px;
+      }
+    }
+    &__name {
+      display: block;
+      font-weight: 500;
+      font-size: 14px;
+      color: rgba($color: #000000, $alpha: 0.7);
+      margin-left: 32px;
+      margin-top: 8px;
+    }
+  }
+  .phone {
+    display: none;
+  }
+  .menu {
+    top: 8px;
+  }
+  .title {
+    &__head {
+      font-size: 38px;
+      line-height: 50px;
+    }
+    &__subhead {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+
+  .features {
+    min-height: 130px;
+    padding: 40px 0 40px 0;
+    &::after {
+      left: 25px;
+      right: 25px;
+    }
+  }
+
+  .desing {
+    padding: 40px 0 57px 0;
+    &__wrapper {
+      margin-top: 41px;
+    }
+    &::after {
+      left: 25px;
+      right: 25px;
+    }
+  }
+
+  .card {
+    &--min {
+      margin-top: 50px;
+    }
+    &__img {
+      &--active {
+        width: 265px;
+        height: 183px;
+      }
+    }
+    &__text {
+      &--min {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+
+  .video {
+    padding: 40px 0 79px 0;
+    min-height: 750px;
+    &__wrapper {
+      flex-direction: row;
+    }
+    &__phone {
+      flex-basis: 50%;
+      margin-top: 50px;
+      margin-right: 5px;
+    }
+  }
+  .property {
+    flex-basis: 50%;
+    margin-top: 50px;
+    &__card {
+      width: 325px;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    &__descr {
+      width: 195px;
+      margin-top: 0;
+    }
+  }
+  .accessories {
+    padding-bottom: 61px;
+    &__wrapper {
+      margin-top: 0;
+    }
+    &__card {
+      &--min {
+        max-width: 325px;
+        margin-top: 50px;
+      }
+    }
+    &__descr {
+      &--min {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+
+  .app {
+    padding-top: 38px;
+    &__wrapper {
+      margin-top: 17px;
+      justify-content: flex-start;
+    }
+    &__card {
+      width: 210px;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 0;
+      border-bottom: 0;
+      margin-right: 13px;
+    }
+    &__descr {
+      margin-top: 20px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+    &__img {
+      margin-right: 0;
+      &--order {
+        order: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .desing {
+    min-height: 540px;
+    &__wrapper {
+      margin-top: 55px;
+      flex-wrap: nowrap;
+    }
+  }
+  .card {
+    max-width: 223px;
+    flex: 1 1 auto;
+    &__img {
+      &--active {
+        width: 162px;
+        height: 112px;
+      }
+    }
+    &--min {
+      margin-top: 0;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 24px;
+      &--active {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+    &:nth-child(2n + 1) {
+      margin-right: 0px;
+    }
+    &--active {
+      height: 304px;
+    }
+  }
+  .video {
+    min-height: 670px;
+    &__phone {
+      width: 465px;
+      height: 248px;
+    }
+  }
+  .property {
+    &__card {
+      width: 465px;
+    }
+    &__descr {
+      width: 343px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .accessories {
+    min-height: 438px;
+    &__wrapper {
+      margin-top: 52px;
+    }
+    &__card {
+      margin-top: 0;
+      max-width: 223px;
+      &--min {
+        margin-top: 0;
+        padding-top: 21px;
+        min-width: 223px;
+      }
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    &__descr {
+      display: none;
+      font-size: 16px;
+      line-height: 24px;
+      &--min {
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      &--max {
+        display: block;
+      }
+    }
+  }
+  .app {
+    &__wrapper {
+      margin-top: 0;
+    }
+    &__card {
+      width: 303px;
+      margin-top: 50px;
+    }
+    &__descr {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .app {
+    &__wrapper {
+      justify-content: space-between;
+    }
+  }
+  .menu {
+    &__mob {
+      cursor: pointer;
+    }
+  }
+}

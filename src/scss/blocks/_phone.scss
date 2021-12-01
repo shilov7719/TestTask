@@ -1,0 +1,10 @@
+.phone {
+  min-height: 24px;
+  background-color: #efefef;
+  padding: 4px 0;
+  &__model {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba($color: $text-color, $alpha: 0.7);
+  }
+}

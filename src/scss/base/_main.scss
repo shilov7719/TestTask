@@ -1,0 +1,28 @@
+.container {
+  padding: 0 15px;
+  max-width: 1470px;
+  margin: 0 auto;
+}
+
+//header
+@import "blocks/header";
+//Menu
+@import "blocks/menu";
+//Phone
+@import "blocks/phone";
+//Title
+@import "blocks/title";
+//Futures
+@import "blocks/features";
+//Desing
+@import "blocks/desing";
+//Card
+@import "blocks/card";
+//Video
+@import "blocks/video";
+//Property-Card
+@import "blocks/property";
+//Accessories
+@import "blocks/accessories";
+//App
+@import "blocks/app";

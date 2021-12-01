@@ -1,0 +1,70 @@
+.accessories {
+  min-height: 876px;
+  padding-bottom: 50px;
+  position: relative;
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    justify-content: space-between;
+  }
+  &__card {
+    max-width: 325px;
+    margin-top: 40px;
+    &--min {
+      max-width: 141px;
+      padding-top: 21px;
+      flex-basis: 50%;
+      border-top: 1px solid #dddddd;
+      position: relative;
+      &::before {
+        content: " ";
+        position: absolute;
+        top: -1px;
+        left: 0;
+        display: block;
+        width: 50px;
+        height: 1px;
+        background-color: $text-color;
+      }
+    }
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  &__img {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #dddddd;
+
+    img {
+      width: 100%;
+    }
+  }
+  &__descr {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: $text-color;
+    margin-top: 20px;
+    &--min {
+      font-size: 12px;
+      line-height: 17px;
+      margin-top: 0;
+    }
+    &--max {
+      display: none;
+    }
+  }
+  &::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    display: block;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 1px;
+    background-color: #dddddd;
+  }
+}

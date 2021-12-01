@@ -1,0 +1,24 @@
+.desing {
+  min-height: 972px;
+  padding: 20px 0 50px 0;
+  position: relative;
+
+  &__wrapper {
+    margin-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    display: block;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 1px;
+    background-color: #dddddd;
+  }
+}

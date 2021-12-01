@@ -1,0 +1,20 @@
+//Fonts
+
+@font-face {
+  font-family: "PTRootUI";
+  src: url("../fonts/PTRootUI-500.eot");
+  src: url("../fonts/PTRootUI-500.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PTRootUI-500.woff") format("woff"),
+    url("../fonts/PTRootUI-500.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PTRootUI";
+  src: url("../fonts/PTRootUI-700.eot");
+  src: url("../fonts/PTRootUI-700.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PTRootUI-700.woff") format("woff"),
+    url("../fonts/PTRootUI-700.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
